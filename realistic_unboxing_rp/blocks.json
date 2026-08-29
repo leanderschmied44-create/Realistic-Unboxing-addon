@@ -1,0 +1,11 @@
+{
+  "format_version": [1, 1, 0],
+  "unboxing:shipping_box": {
+    "textures": {
+      "up": "shipping_box_top",
+      "down": "shipping_box_side",
+      "side": "shipping_box_side"
+    },
+    "sound": "wood"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "unboxing:bubble_wrap",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "bubble_wrap"
+      },
+      "minecraft:display_name": {
+        "value": "Bubble Wrap (Clogs Inventory!)"
+      },
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

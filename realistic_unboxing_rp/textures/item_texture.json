@@ -1,0 +1,12 @@
+{
+  "resource_pack_name": "realistic_unboxing",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "shipping_box": {
+      "textures": "textures/items/shipping_box"
+    },
+    "bubble_wrap": {
+      "textures": "textures/items/bubble_wrap"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "unboxing:shipping_box",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.full_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "shipping_box_side",
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "shipping_box_top",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "shipping_box_side",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 2.0
+      },
+      "minecraft:friction": 0.6,
+      "minecraft:light_dampening": 15
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "resource_pack_name": "realistic_unboxing",
+  "texture_name": "atlas.terrain",
+  "num_mip_levels": 4,
+  "padding": 8,
+  "texture_data": {
+    "shipping_box_top": {
+      "textures": "textures/blocks/shipping_box_top"
+    },
+    "shipping_box_side": {
+      "textures": "textures/blocks/shipping_box_side"
+    }
+  }
+}
