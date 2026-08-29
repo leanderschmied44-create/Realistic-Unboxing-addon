@@ -1,0 +1,23 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "unboxing:shipping_box",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "shipping_box"
+      },
+      "minecraft:display_name": {
+        "value": "Cardboard Shipping Box"
+      },
+      "minecraft:block_placer": {
+        "block": "unboxing:shipping_box"
+      },
+      "minecraft:max_stack_size": 64
+    }
+  }
+}
